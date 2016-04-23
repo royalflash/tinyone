@@ -1,0 +1,250 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+body{
+	font: 300 13px/1.25 'PT Sans', sans-serif;
+	color: #010101;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/* Layout */
+.ba-container{
+	max-width: 960px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+/* header */
+
+.ba-header {
+	padding-top: 60px;
+}
+.tinyone_menu ul {
+	list-style: none;
+}
+.tinyone_menu li {
+	display: inline-block;
+	padding-left: 75px;
+}
+.tinyone_menu a {
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: 700;
+	color: #010101;
+}
+.tinyone_menu li:first-child{
+	padding-left: 0;
+}
+.tinyone_menu a:hover {
+	color: #e3c819;
+	background: #010101;
+	border-radius: 2px;
+}
+/* Tinyone inspire */
+
+.tinyone_inspire {
+	background: #e3c819 url(../img/inspire-bg.jpg);
+	background-size: cover;
+}
+.tinyone_inspire--info {
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
+.tinyone_inspire--text {
+	max-width: 400px;
+	padding-top: 62px;
+}
+.tinyone_inspire--text h1 {
+	font-size: 32px;
+	font-weight: 700;
+}
+.tinyone_inspire--text h2 {
+	padding-top: 5px;
+	color: #313841;
+}
+.tinyone_inspire--text p {
+	padding: 20px 0;
+	color: #313841;
+}
+.tinyone_inspire--store {
+	text-decoration: none;
+	font-size: 42px;
+	color: #010101;
+	padding-top: 20px;
+	padding-right: 20px;
+	box-sizing: border-box;
+}
+.tinyone_inspire--img {
+	margin-right: 40px;
+}
+.tinyone_inspire--img img {
+	border-radius: 20px;
+}
+
+/* Tinyone features */
+.tinyone_features {
+	padding-top: 100px;
+	padding-bottom: 160px;
+}
+.tinyone_features--text {
+	padding-bottom: 95px;
+	text-align: center;
+}
+.tinyone_features--text h2 {
+	font-size: 32px;
+	font-weight: 700;
+}
+.tinyone_features--text p {
+	max-width: 740px;
+	margin: 0 auto;
+	color: #313841;
+	font-size: 20px;
+}
+.fa {
+	font-size: 50px;
+	display: inline-block;
+	vertical-align: top;
+}
+.tinyone_features--card {
+	display: inline-block;
+	vertical-align: top;
+	max-width: 220px;
+	padding-left: 30px;
+}
+.tinyone_features--card h2 {
+	font-size: 22px;
+ 	font-weight: 400;
+	margin: 0;
+}
+.tinyone_features--card p {
+	color:  #898989;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+/* Tinyone footer */
+
+.ba-tinyone-footer {
+	background: #202224 url(../img/tinyone-footer-bg.jpg);
+	background-size: cover;
+}
+.ba-tinyone-footer {
+	padding-top: 92px;
+	padding-bottom: 140px;
+	text-align: center;
+}
+.ba-tinyone-footer h2 {
+	color: #fcdb00;
+	font-size: 32px;
+	font-weight: 700;
+}
+.ba-tinyone-footer p {
+	max-width: 740px;
+	margin: 0 auto;
+	color: #898989;
+	font-size: 20px;
+}
+.ba-tinyone__form {
+	padding-top: 45px;
+	padding-bottom: 70px;
+}
+.ba-tinyone__form input{
+	width: 580px;
+	padding: 17px 0 17px 20px;
+	outline: none;
+	vertical-align: middle;
+	border: 2px solid transparent;
+}
+.ba-tinyone__form input:hover {
+	border: 2px solid #fcdb00;
+}
+.ba-button {
+	width: 133px;
+	padding: 17px 0;
+	border: 2px solid #010101;
+	border-radius: 5px;
+	outline: none;
+	background-color: #fcdb00;
+	vertical-align: middle;
+	font-weight: 700;
+	font-size: 16px;
+}
+.ba-button:hover {
+	border: 2px solid #fcdb00;
+	background-color: #010101;
+	color: #fcdb00;
+}
+.ba-tinyone__footer--social{
+	padding-bottom: 70px;
+	border-bottom: 1px solid #898989;
+}
+.ba-tinyone__footer--social a {
+	color: #fcdb00;
+	padding-left:33px;
+}
+.ba-tinyone__links {
+	padding-top: 65px;
+	color: #898989;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: left;
+}
+.ba-tinyone__links h5 {
+	color: #898989;
+	margin: 0;
+}
+.ba-tinyone__links a{
+	color: #898989;
+	text-decoration: none;
+	display: block;
+}
+.ba-tinyone__links a:hover {
+	color: #fcdb00;
+}
+.ba-tinyone__adress{
+	margin-right: 100px;
+}
